@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jhbutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#code#&gt; = ({
+        UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+        btn.titleLabel.font = FONT_REGULAR_WITH_SIZE(14);
+        [btn setTintColor:COLOR_FONT_2ND_NORMAL];
+        btn.layer.cornerRadius = 14.0f;
+        btn.clipsToBounds = YES;
+        [&lt;#code#&gt; addTarget:self action:@selector(&lt;#code#&gt;) forControlEvents:UIControlEventTouchUpInside];
+        [&lt;#code#&gt; addSubview:btn];
+        [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.centerY.equalTo(&lt;#code#&gt;);
+            make.right.equalTo(&lt;#code#&gt;);
+            make.size.mas_equalTo(&lt;#code#&gt;);
+        }];
+        btn;
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>432B9CE3-9976-4F34-BD4E-12B7C94199F6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>button_block</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

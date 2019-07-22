@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jhimage</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#code#&gt;= ({
+        UIImageView *iv = [[UIImageView alloc] initWithImage:[UIImage imageNamed:&lt;#code#&gt;]];
+        iv.contentMode = UIViewContentModeScaleAspectFit;
+        [&lt;#code#&gt; addSubview:iv];
+        [iv mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.right.equalTo(&lt;#code#&gt;).offset(&lt;#code#&gt;);
+            make.centerY.equalTo(&lt;#code#&gt;);
+            make.size.mas_equalTo(&lt;#code#&gt;);
+        }];
+        iv;
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4BFD3290-BA33-4346-B930-BCC4969186B4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIImage_block</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

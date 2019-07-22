@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jhlabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#code#&gt; = ({
+        UILabel *label = [[UILabel alloc] init];
+        label.textColor = &lt;#code#&gt;;
+        label.font = FONT_MEDIUM_WITH_SIZE(14);
+        label.numberOfLines = 1;
+        [&lt;#code#&gt; addSubview:label];
+        [label mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.right.equalTo(&lt;#code#&gt;).offset(&lt;#code#&gt;);
+            make.centerY.equalTo(&lt;#code#&gt;);
+        }];
+        label;
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7AE7EA27-3231-4CDC-89AF-9A5A066A039B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>label_block</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

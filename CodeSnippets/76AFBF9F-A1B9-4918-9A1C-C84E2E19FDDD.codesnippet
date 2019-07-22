@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jhuiview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#code#&gt; = ({
+        UIView *view = [UIView new];
+        view.backgroundColor = COLOR_DIVIDER;
+        [&lt;#code#&gt; addSubview:view];
+        [view mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.equalTo(&lt;#code#&gt;).offset(&lt;#code#&gt;);
+            make.right.equalTo(&lt;#code#&gt;).offset(&lt;#code#&gt;);
+            make.bottom.equalTo(&lt;#code#&gt;).offset(&lt;#code#&gt;);
+            make.height.mas_equalTo(&lt;#code#&gt;);
+        }];
+        view;
+    });</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>76AFBF9F-A1B9-4918-9A1C-C84E2E19FDDD</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>uiview_block</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
