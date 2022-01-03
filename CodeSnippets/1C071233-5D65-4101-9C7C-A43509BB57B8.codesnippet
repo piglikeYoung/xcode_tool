@@ -24,7 +24,7 @@ dispatch_async(urls_queue, ^{
 	<key>IDECodeSnippetSummary</key>
 	<string>Custom dispatch queue</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Custom dispatch queue</string>
+	<string>oc custom dispatch queue</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

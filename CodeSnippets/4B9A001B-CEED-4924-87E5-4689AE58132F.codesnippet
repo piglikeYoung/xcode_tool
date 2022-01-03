@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>jhmark</string>
+	<string>jhls</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeExpression</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#name#&gt;</string>
+	<string>NSLocalizedString(@"&lt;#key#&gt;", nil)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>088450AF-DFF6-4420-BA4E-D11506F7597F</string>
+	<string>4B9A001B-CEED-4924-87E5-4689AE58132F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>ls</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mymark_oc</string>
+	<string>Objective-C Localized String</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

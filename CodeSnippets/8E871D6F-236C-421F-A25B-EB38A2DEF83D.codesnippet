@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>jhmark</string>
+	<string>jhssc</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#name#&gt;</string>
+	<string>static NSString * const FT&lt;#ConstantName#&gt; = @"&lt;#ConstantValue#&gt;";</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>088450AF-DFF6-4420-BA4E-D11506F7597F</string>
+	<string>8E871D6F-236C-421F-A25B-EB38A2DEF83D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Define String Constant</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mymark_oc</string>
+	<string>Objective-C Static String Constant Define</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

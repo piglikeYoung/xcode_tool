@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>jhmark</string>
+	<string>jhnotificationremove</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#name#&gt;</string>
+	<string>[[NSNotificationCenter defaultCenter] removeObserver:self];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>088450AF-DFF6-4420-BA4E-D11506F7597F</string>
+	<string>D39ED60F-F8D6-4ADD-8EC6-EA4FA19FAD11</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>notificationremove</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mymark_oc</string>
+	<string>Objective-C Remove Observer from Notification Center</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

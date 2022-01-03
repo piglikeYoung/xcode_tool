@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jhnstableextension</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+    //MARK: - NSTableViewDataSource
+
+    extension &lt;#ClassType#&gt;: NSTableViewDataSource {
+
+		func numberOfRows(in tableView: NSTableView) -&gt; Int {
+			return &lt;#count#&gt;
+		}
+
+		func tableView(_ tableView: NSTableView, objectValueFor tableColumn: NSTableColumn?, row: Int) -&gt; Any? {
+			return &lt;##object#&gt;
+		}
+	}
+
+        
+    //MARK: - NSTableViewDelegate
+    
+    extension &lt;#ClassType#&gt;: NSTableViewDelegate {
+    
+        func tableView(_ tableView: NSTableView, heightOfRow row: Int) -&gt; CGFloat {
+			return &lt;#height#&gt;
+		}
+		
+		func tableView(_ tableView: NSTableView, viewFor tableColumn: NSTableColumn?, row: Int) -&gt; NSView? {
+			return &lt;#cell#&gt;
+		}
+    
+    }
+    </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B2CCCC51-ECE4-4DDD-A31B-0503F849D6DE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>NSTableViewDataSource and NSTableViewDelegate snippet for Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift NSTableViewDataSource and NSTableViewDelegate </string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

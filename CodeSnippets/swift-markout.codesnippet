@@ -3,21 +3,37 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>jhmark</string>
+	<string>jhmarkout</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>TopLevel</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - &lt;#name#&gt;</string>
+	<string>
+    // MARK: - Protocol
+	// MARK: -
+    
+    // MARK: - Enum
+	// MARK: -
+    
+    // MARK: - Struct
+	// MARK: -
+    
+    // MARK: - Class
+	// MARK: -
+    
+    // MARK: - Extension
+	// MARK: -
+    
+    </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>088450AF-DFF6-4420-BA4E-D11506F7597F</string>
+	<string>3759C0E1-EAE1-4321-88CD-54F1EEF38E90</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>Divider label for separating code into sections</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mymark_oc</string>
+	<string>Swift Outer Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

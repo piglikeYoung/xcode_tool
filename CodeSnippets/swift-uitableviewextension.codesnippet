@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>jhtableextension</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>
+    //MARK: - UITableViewDataSource
+    extension &lt;#ClassType#&gt;: UITableViewDataSource {
+
+        func numberOfSections(in tableView: UITableView) -&gt; Int {
+            return &lt;#numberOfSections#&gt;
+        }
+
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+            return &lt;#numberOfRows#&gt;
+        }
+
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -&gt; UITableViewCell {
+            let cell = tableView.dequeueReusableCell(withIdentifier: &lt;#identifier#&gt;, for: indexPath)
+            
+            return cell
+        }
+    
+    }
+        
+    //MARK: - UITableViewDelegate
+    
+    extension &lt;#ClassType#&gt;: UITableViewDelegate {
+    
+        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            
+        }
+    
+    }
+    </string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>183B54E8-CAE0-4C8F-B8B3-43E3965FDF1A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableViewDelegate and UITableViewDataSource snippet for Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Swift UITableViewDelegate and UITableViewDataSource</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

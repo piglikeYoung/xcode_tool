@@ -3,30 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>jhlabel</string>
+	<string>csut</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>&lt;#code#&gt; = ({
-        UILabel *label = [[UILabel alloc] init];
-        label.textColor = &lt;#code#&gt;;
-        label.font = FONT_MEDIUM_WITH_SIZE(14);
-        label.numberOfLines = 1;
-        [&lt;#code#&gt; addSubview:label];
-        [label mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.right.equalTo(&lt;#code#&gt;).offset(&lt;#code#&gt;);
-            make.centerY.equalTo(&lt;#code#&gt;);
-        }];
-        label;
-    });</string>
+	<string>- (void)test&lt;#BusinessName#&gt;_&lt;#scene#&gt;_&lt;#result#&gt; {
+    // Arrange
+    
+    
+    // Action
+    
+    
+    // Assert
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7AE7EA27-3231-4CDC-89AF-9A5A066A039B</string>
+	<string>7F084CBC-B542-4E34-AD3D-45083EBD9711</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>label_block</string>
+	<string>Unit Test Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

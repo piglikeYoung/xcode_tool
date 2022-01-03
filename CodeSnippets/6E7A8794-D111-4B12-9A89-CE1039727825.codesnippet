@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>jh_register_xib</string>
+	<string>jhmark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#define ReuseIdentifier @""
-    UINib * nib = [UINib nibWithNibName:@"" bundle:nil];
-    [_tableView registerNib:nib forCellReuseIdentifier:ReuseIdentifier];</string>
+	<string>// MARK: - &lt;#name#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>524E7A76-9BBC-4442-86F2-37DB97C7AC37</string>
+	<string>6E7A8794-D111-4B12-9A89-CE1039727825</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>jh register xib</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>jh register xib</string>
+	<string>mymark_swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
