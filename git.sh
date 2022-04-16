@@ -17,6 +17,15 @@ alias gcp='git cherry-pick'
 alias gcpa='git cherry-pick --abort'
 alias gcpc='git cherry-pick --continue'
 
+# 一个 feature 开发完了，已经提交
+# 突然发现有几个小问题，修改完后不想生成一个新的 commit
+# 下面这条指令就可以将修改直接合并到上一个 commit，并且使用上次提交的信息
+alias gcmed='git commit --amend --no-edit'
+
+# 有时你提交过代码之后，发现一个地方改错了，你下次提交时不想保留上一次的记录；
+# 或者你上一次的commit message的描述有误，这时候你可以使用接下来的这个命令
+alias gcma='git commit --amend'
+
 alias gd='git diff'
 alias gdc='git diff HEAD~ HEAD'
 alias gdr='git_recursive_diff'
@@ -27,11 +36,10 @@ alias gfr='git fetch;git rebase;'
 alias ggrep='git grep --break --heading -n'
 alias gh='git help --man'
 alias gignore='git update-index --assume-unchanged'
+alias gl='git log'
 alias glp='git log -p'
 alias gm='git merge'
 alias gco='git checkout'
-
-alias gpush='git push origin HEAD:dev;'
 
 alias gr='git rebase'
 alias gra='git rebase --abort'
@@ -41,8 +49,8 @@ alias gri='git rebase -i'
 alias gro='git rebase -i --onto'
 alias grs='git reset --soft'
 
-alias gst='git stash --index;git fetch;'
-alias gsp='git stash pop --index'
+alias gst='git stash;git fetch;'
+alias gsp='git stash pop'
 alias gsr='git_recursive_status'
 alias gss='git status --short'
 
@@ -250,6 +258,11 @@ _fzf_complete_gbdr() {
     zle redisplay
 }
 
-gbdr() {
-    git push origin :$1
+alias current_branch="git branch --show-current"
+gpush() {
+    git push origin `current_branch`
+}
+
+gpull() {
+    git pull origin `current_branch`
 }
